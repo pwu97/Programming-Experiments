@@ -1,5 +1,5 @@
 # Programming-Experiments
-This repository contains code to solve several data structures and algorithms problems in Python and C++. 
+This repository contains code to solve several data structures and algorithms problems in Python and C++. There is also a separate branch called `mybranch` which I've created to experiment with branching.
 
 | Number | Problem | Difficulty | Solution |
 | --- | --- | --- | --- |
