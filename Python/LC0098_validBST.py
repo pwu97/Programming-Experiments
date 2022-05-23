@@ -23,9 +23,15 @@ class Solution(object):
         :type root: TreeNode
         :rtype: bool
         """
+        # Makes sure every node is within the proper bounds,
+        # starting with the root node.
         return self.isValidBSTHelper(root, float("-inf"), float("inf"))
     
     def isValidBSTHelper(self, root, lower, upper):
+        # Checks if current root is between lower and upper,
+        # and then recursively does the same procedure with the
+        # left node (same lower bound and current value) and
+        # right node (same upper bound and current value).
         if not root:
             return True
         val = root.val
