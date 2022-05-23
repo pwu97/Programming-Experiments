@@ -19,10 +19,6 @@ class TreeNode(object):
 
 class Solution(object):
     def isValidBST(self, root):
-        """
-        :type root: TreeNode
-        :rtype: bool
-        """
         # Makes sure every node is within the proper bounds,
         # starting with the root node.
         return self.isValidBSTHelper(root, float("-inf"), float("inf"))
