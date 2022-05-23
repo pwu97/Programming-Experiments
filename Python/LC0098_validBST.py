@@ -66,10 +66,5 @@ root.right.left = TreeNode(4)
 #     4
 print(Solution().isValidBST(root))
 # False
-    
-    
-    
-    
-        
-        
+
         
